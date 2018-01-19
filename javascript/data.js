@@ -74,7 +74,7 @@ var roomArray = [
 			},
 			{
 				text:'Ask party members to keep watch',
-				index:3
+				index:13
 			},
 			{
 				text:'Ask Grigor to keep watch',
@@ -136,7 +136,7 @@ var roomArray = [
 		image:'',
 		choices:[
 			{
-				text:'You have been slain',
+				text:'You have been slain (Start Again)',
 				index:1
 			}
 		]
@@ -147,18 +147,18 @@ var roomArray = [
 		image:'',
 		choices:[
 			{
-				text:'You think you have escaped, but what of the camp?',
+				text:'You think you have escaped, but what of the camp? (Start Again)',
 				index:1
 			}
 		]
 	},
 	{
 		title:'Captured!', /* 11 */
-		text:'You run with all the energy you can muster.',
+		text:'The battle doesn’t last long. Their elven grace and natural affinity for dexterity and stealth is shown in their combat. They easily outmanoeuvre you. A sharp pain pierces the back of your head, and you fall helplessly to the ground. The drow have captured you. ',
 		image:'',
 		choices:[
 			{
-				text:'You think you have escaped, but what of the camp?',
+				text:'You have been captured! (Start Again)',
 				index:1
 			}
 		]
